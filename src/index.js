@@ -1,3 +1,5 @@
+import './scss/main.scss';
+
 console.log("please work 1");
 console.log("please work 2");
 console.log("please work 3");
