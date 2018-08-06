@@ -1,7 +1,5 @@
-import './scss/main.scss';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-console.log("please work 1");
-console.log("please work 2");
-console.log("please work 3");
-console.log("please work 4");
-console.log("please work 5");
+ReactDOM.render(<App/>, document.getElementById('app'));
