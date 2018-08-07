@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.html -p 3002"
+    "start": "parcel src/index.html -p 3002",
+    "build": "parcel build src/index.html --no-minify --public-url ./"
   },
   "engines": {
-    "node": "10.3.0",
-    "npm": "6.1.0"
+    "node": "10.3.0"
   },
   "author": "Omri Ratson",
   "license": "MIT",
