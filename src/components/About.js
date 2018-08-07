@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import portrait from "../assets/portrait.jpg";
+import portrait from "../assets/portrait1.jpg"
 
 export default class About extends Component {
     render() {
@@ -23,7 +23,7 @@ export default class About extends Component {
                         <h2>FUNDtech</h2>
                         <h3>QA Automation</h3>
                         <h4>2014 - 2015</h4>
-                        <p>Intuit is a company that specialized in developing financial products – QuickBooks, TurboTax, Mint and more.</p>
+                        <p>Now part of D+H FUNDtech is a company that specialized in developing banking & clearing systems.</p>
                         <ul>
                             <li>Developed in JAVA and Groovy Script using SoapUI.</li>
                             <li>Used PL/SQL for performance DB testing.</li>
@@ -34,7 +34,7 @@ export default class About extends Component {
                         <h2>Amdocs</h2>
                         <h3>Automation Developer</h3>
                         <h4>2015 - 2016</h4>
-                        <p>Intuit is a company that specialized in developing financial products – QuickBooks, TurboTax, Mint and more.</p>
+                        <p>Amdocs is a leading company developing telemarketing solutions for major leading companies like AT&T, Comcast etc.<br/>I took part in NFV Team which developed new virtual network infrastructure solution to make our day to day mobile network autonomous which solves many issues we are facing today and in the future.</p>
                         <ul>
                             <li>Designed and developed a complex in-house testing framework which runs the nightly functional and performance tests.</li>
                             <li>Developing automated CI and system deployment tools using JAVA, Python, JavaScript, JSon, Bash scripts based on Jenkins platform.</li>
@@ -46,7 +46,7 @@ export default class About extends Component {
                         <h2>Intuit</h2>
                         <h3>Fullstack Developer</h3>
                         <h4>2016 - 2018</h4>
-                        <p>Intuit is a company that specialized in developing financial products – QuickBooks, TurboTax, Mint and more.</p>
+                        <p>Intuit is one of the if not the most influential FinTech company in the US. They specialized in developing financial products like QuickBooks, TurboTax, Mint and more.</p>
                         <ul>
                             <li>Design and develop applications from user perspective all the way down to technical server capabilities.</li>
                             <li>Working with JAVA latest Spring Boot framework to develop lightweight services/applications.</li>

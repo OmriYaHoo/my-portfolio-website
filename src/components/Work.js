@@ -10,18 +10,15 @@ export default class Work extends Component {
         return (
             <main id="work">
                 <h1 className="lg-heading">
-                    My
-                    <span className="text-secondary">Work</span>
+                    My <span className="text-secondary">Work</span>
                 </h1>
                 <h2 className="sm-heading">
                     Check out some of my projects...
                 </h2>
                 <div className="projects">
                     <div className="item">
-                        <a href="#!">
                             <img src={project1} alt="Project"/>
-                        </a>
-                        <a href="#" className="btn-light">
+                        <a href="https://intense-inlet-87426.herokuapp.com/" className="btn-light">
                             <i className="fas fa-eye"/> Books App BackEnd
                         </a>
                         <a href="https://github.com/OmriYaHoo/books-app-be" className="btn-dark">
@@ -29,10 +26,8 @@ export default class Work extends Component {
                         </a>
                     </div>
                     <div className="item">
-                        <a href="#!">
                             <img src={project2} alt="Project"/>
-                        </a>
-                        <a href="#" className="btn-light">
+                        <a href="https://intense-inlet-87426.herokuapp.com/" className="btn-light">
                             <i className="fas fa-eye"/> Books App FrontEnd
                         </a>
                         <a href="https://github.com/OmriYaHoo/books-app-fe" className="btn-dark">
@@ -40,9 +35,7 @@ export default class Work extends Component {
                         </a>
                     </div>
                     <div className="item">
-                        <a href="#!">
                             <img src={project3} alt="Project"/>
-                        </a>
                         <a href="#" className="btn-light">
                             <i className="fas fa-eye"/> My Portfolio Website
                         </a>
