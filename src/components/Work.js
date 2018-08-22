@@ -39,32 +39,10 @@ export default class Work extends Component {
                         <a href="#" className="btn-light">
                             <i className="fas fa-eye"/> My Portfolio Website
                         </a>
-                        <a href="#" className="btn-dark">
+                        <a href="https://github.com/OmriYaHoo/my-portfolio-website" className="btn-dark">
                             <i className="fab fa-github"/> Github
                         </a>
                     </div>
-                    {/*<div className="item">*/}
-                        {/*<a href="#!">*/}
-                            {/*<img src={project4} alt="Project"/>*/}
-                        {/*</a>*/}
-                        {/*<a href="#" className="btn-light">*/}
-                            {/*<i className="fas fa-eye"/> Project*/}
-                        {/*</a>*/}
-                        {/*<a href="#" className="btn-dark">*/}
-                            {/*<i className="fab fa-github"/> Github*/}
-                        {/*</a>*/}
-                    {/*</div>*/}
-                    {/*<div className="item">*/}
-                        {/*<a href="#!">*/}
-                            {/*<img src={project5} alt="Project"/>*/}
-                        {/*</a>*/}
-                        {/*<a href="#" className="btn-light">*/}
-                            {/*<i className="fas fa-eye"/> Project*/}
-                        {/*</a>*/}
-                        {/*<a href="#" className="btn-dark">*/}
-                            {/*<i className="fab fa-github"/> Github*/}
-                        {/*</a>*/}
-                    {/*</div>*/}
                 </div>
             </main>
         );
