@@ -4,7 +4,7 @@ export default class Footer extends Component {
     render() {
         return (
             <footer id="main-footer">
-                Copyright &copy; {new Date().getFullYear()}
+                OmriYaHoo &copy; {new Date().getFullYear()}
             </footer>
         );
     }

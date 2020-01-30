@@ -4,7 +4,7 @@ This website is build with the following technologies:
  - [ReactJS](https://reactjs.org/)
  - [React Router](https://github.com/ReactTraining/react-router)
  - [Parcel Bundler](https://parceljs.org/)
- - [Express](https://expressjs.com/) (Server to server the client on the cloud with configuration. It doesn't have API other than that)
+ - [Express](https://expressjs.com/) (Server to serve the client on the cloud. It doesn't have API other than that)
  - [Node Sass](https://github.com/sass/node-sass) for styling
 
 The site is being hosted on [Heroku](https://www.heroku.com/) Cloud service.

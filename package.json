@@ -1,6 +1,6 @@
 {
   "name": "portfolio-client",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "My Porfolio Website",
   "main": "index.js",
   "scripts": {
@@ -12,19 +12,19 @@
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run build"
   },
   "engines": {
-    "node": "10.3.0"
+    "node": "13.1.0"
   },
   "author": "Omri Ratson",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-router-dom": "^4.3.1"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
-    "node-sass": "^4.10.0",
-    "parcel-bundler": "^1.10.3"
+    "node-sass": "^4.13.1",
+    "parcel-bundler": "^1.12.4"
   }
 }

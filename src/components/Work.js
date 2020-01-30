@@ -2,8 +2,6 @@ import React, {Component} from 'react';
 import project1 from "../assets/project1.jpg"
 import project2 from "../assets/project2.jpg"
 import project3 from "../assets/project3.jpg"
-import project4 from "../assets/project4.jpg"
-import project5 from "../assets/project5.jpg"
 
 export default class Work extends Component {
     render() {
@@ -17,7 +15,7 @@ export default class Work extends Component {
                 </h2>
                 <div className="projects">
                     <div className="item">
-                            <img src={project1} alt="Project"/>
+                        <img src={project1} alt="Project"/>
                         <a href="https://intense-inlet-87426.herokuapp.com/" className="btn-light">
                             <i className="fas fa-eye"/> Books App BackEnd
                         </a>
@@ -26,7 +24,7 @@ export default class Work extends Component {
                         </a>
                     </div>
                     <div className="item">
-                            <img src={project2} alt="Project"/>
+                        <img src={project2} alt="Project"/>
                         <a href="https://intense-inlet-87426.herokuapp.com/" className="btn-light">
                             <i className="fas fa-eye"/> Books App FrontEnd
                         </a>
@@ -35,7 +33,7 @@ export default class Work extends Component {
                         </a>
                     </div>
                     <div className="item">
-                            <img src={project3} alt="Project"/>
+                        <img src={project3} alt="Project"/>
                         <a href="#" className="btn-light">
                             <i className="fas fa-eye"/> My Portfolio Website
                         </a>

@@ -15,7 +15,11 @@ export default class About extends Component {
                     <img src={portrait} alt="Omri Ratson" className="bio-image"/>
                     <div className="bio">
                         <h3 className="text-secondary">BIO</h3>
-                        <p>Hi there! my name is Omri Ratson. I'm married to a beautiful wife and I have two sweet little boys. I'm a Software Developer and general tech enthusiast that is always happy to learn new technologies. I am highly analytical with great problem solving and fast self-learning skills. I have excellent written and verbal communication skills, good interpersonal skills and teamwork competencies.
+                        <p>Hi there! my name is Omri Ratson. I'm married to a beautiful wife and I have two sweet little
+                            boys. I'm a Software Developer and general tech enthusiast that is always happy to learn new
+                            technologies. I am highly analytical with great problem solving and fast self-learning
+                            skills. I have excellent written and verbal communication skills, good interpersonal skills
+                            and teamwork competencies.
                         </p>
                     </div>
 
@@ -23,7 +27,8 @@ export default class About extends Component {
                         <h2>FUNDtech</h2>
                         <h3>QA Automation</h3>
                         <h4>2014 - 2015</h4>
-                        <p>Now part of D+H FUNDtech is a company that specialized in developing banking & clearing systems.</p>
+                        <p>Now part of D+H FUNDtech is a company that specialized in developing banking & clearing
+                            systems.</p>
                         <ul>
                             <li>Developed in JAVA and Groovy Script using SoapUI.</li>
                             <li>Used PL/SQL for performance DB testing.</li>
@@ -34,11 +39,21 @@ export default class About extends Component {
                         <h2>Amdocs</h2>
                         <h3>Automation Developer</h3>
                         <h4>2015 - 2016</h4>
-                        <p>Amdocs is a leading company developing telemarketing solutions for major leading companies like AT&T, Comcast etc.<br/>I took part in NFV Team which developed new virtual network infrastructure solution to make our day to day mobile network autonomous which solves many issues we are facing today and in the future.</p>
+                        <p>Amdocs is a leading company developing telemarketing solutions for major leading companies
+                            like AT&T, Comcast etc.<br/>I took part in NFV Team which developed new virtual network
+                            infrastructure solution to make our day to day mobile network autonomous which solves many
+                            issues we are facing today and in the future.</p>
                         <ul>
-                            <li>Designed and developed a complex in-house testing framework which runs the nightly functional and performance tests.</li>
-                            <li>Developing automated CI and system deployment tools using JAVA, Python, JavaScript, JSon, Bash scripts based on Jenkins platform.</li>
-                            <li>Developing testing tools integrated with open source systems (JMeter, JSystem, Git and more). Working with JMeter as the automatic environment for System API and UI testing (Using Selenium).</li>
+                            <li>Designed and developed a complex in-house testing framework which runs the nightly
+                                functional and performance tests.
+                            </li>
+                            <li>Developing automated CI and system deployment tools using JAVA, Python, JavaScript,
+                                JSon, Bash scripts based on Jenkins platform.
+                            </li>
+                            <li>Developing testing tools integrated with open source systems (JMeter, JSystem, Git and
+                                more). Working with JMeter as the automatic environment for System API and UI testing
+                                (Using Selenium).
+                            </li>
                             <li>Operational experience in running cloud infrastructure. (Openstack)</li>
                         </ul>
                     </div>
@@ -46,14 +61,44 @@ export default class About extends Component {
                         <h2>Intuit</h2>
                         <h3>Fullstack Developer</h3>
                         <h4>2016 - 2018</h4>
-                        <p>Intuit is one of the if not the most influential FinTech company in the US. They specialized in developing financial products like QuickBooks, TurboTax, Mint and more.</p>
+                        <p>Intuit is one of the if not the most influential FinTech company in the US. They specialized
+                            in developing financial products like QuickBooks, TurboTax, Mint and more.</p>
                         <ul>
-                            <li>Design and develop applications from user perspective all the way down to technical server capabilities.</li>
-                            <li>Working with JAVA latest Spring Boot framework to develop lightweight services/applications.</li>
-                            <li>Developing and Designing Front End applications with HTML5, CSS3 and JavaScript ES6 using frameworks like React, Redux, Bootstrap etc.</li>
-                            <li>Developing Restful API (CRUD) with Controllers, Services, and Data Model (DL/DAO) using MySQL as DB.</li>
+                            <li>Design and develop applications from user perspective all the way down to technical
+                                server capabilities.
+                            </li>
+                            <li>Working with JAVA latest Spring Boot framework to develop lightweight
+                                services/applications.
+                            </li>
+                            <li>Developing and Designing Front End applications with HTML5, CSS3 and JavaScript ES6
+                                using frameworks like React, Redux, Bootstrap etc.
+                            </li>
+                            <li>Developing Restful API (CRUD) with Controllers, Services, and Data Model (DL/DAO) using
+                                MySQL as DB.
+                            </li>
                             <li>Creating Jenkins Jobs to contribute the workflow of CICD with our projects.</li>
-                            <li>Working with Git and GitHub as our version control Client for managing code and JIRA tasks workflow.</li>
+                            <li>Working with Git and GitHub as our version control Client for managing code and JIRA
+                                tasks workflow.
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="job job-4">
+                        <h2>Viacces-Orca</h2>
+                        <h3>Software Developer</h3>
+                        <h4>2019 - 2020</h4>
+                        <p>Viaccess-Orca is a company that develops OTT and TV platforms, content protection and
+                            advanced data solutions for a personalized TV experience.</p>
+                        <ul>
+                            <li>Developing services in a micro-services architecture with Spring-Boot.</li>
+                            <li>Working with O-S technologies: MongoDB, Zookeeper, Kafka, Kong API gateway and Spring
+                                echo system.
+                            </li>
+                            <li>Strong emphasis on working with Docker and Kubernetes – creating images and management
+                                of K8s YAMLs.
+                            </li>
+                            <li>Managing CICD with GitLab and Jenkins.</li>
+                            <li>Developing a solution system for AWS as well as on-premise deployments.</li>
+
                         </ul>
                     </div>
                 </div>
