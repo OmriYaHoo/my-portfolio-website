@@ -20,7 +20,7 @@ export default class Header extends Component {
             path: path
         });
         this.handleMenuClick();
-    };
+    }
 
     handleMenuClick() {
         if (!this.state.showMenu) {
