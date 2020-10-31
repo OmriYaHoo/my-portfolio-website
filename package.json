@@ -12,19 +12,19 @@
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run build"
   },
   "engines": {
-    "node": "13.1.0"
+    "node": "14.8.0"
   },
   "author": "Omri Ratson",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-router-dom": "^5.1.2"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
-    "node-sass": "^4.13.1",
+    "node-sass": "^5.0.0",
     "parcel-bundler": "^1.12.4"
   }
 }
