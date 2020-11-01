@@ -3,7 +3,8 @@ import project1 from "../assets/project1.jpg"
 import project2 from "../assets/project2.jpg"
 import project3 from "../assets/project3.jpg"
 import project4 from "../assets/project4.jpg"
-import java from "../assets/java.jpg"
+import java from "../assets/java-keyboard.jpg"
+import javaGraphql from "../assets/java-graphql.png"
 
 export default class Work extends Component {
     render() {
@@ -50,6 +51,13 @@ export default class Work extends Component {
                         <a href="https://github.com/OmriYaHoo/JavaVersionScript" className="btn-dark">
                             <i className="fab fa-github"/> Scripts that help change version of Java on a Windows
                             machines
+                        </a>
+                    </div>
+
+                    <div className="item">
+                        <img src={javaGraphql} alt="Project"/>
+                        <a href="https://github.com/OmriYaHoo/graphql-spqr-demo" className="btn-dark">
+                            <i className="fab fa-github"/> GraphQL demo with Java and SpringBoot
                         </a>
                     </div>
 
